@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="5" time="7.301">
+  <testsuite name="Hackermaps" errors="0" failures="5" skipped="0" timestamp="2021-03-17T19:30:32" time="5.238" tests="5">
+    <testcase classname="Hackermaps Should render all the locations in the list" name="Hackermaps Should render all the locations in the list" time="0.057">
+      <failure>ReferenceError: index is not defined
+    at map (/Users/mandac/Source/HackerMaps/src/components/Navigation.js:36:51)
+    at Array.map (&lt;anonymous&gt;)
+    at Navigation.render (/Users/mandac/Source/HackerMaps/src/components/Navigation.js:34:51)
+    at finishClassComponent (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/mandac/Source/HackerMaps/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/mandac/Source/HackerMaps/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/Users/mandac/Source/HackerMaps/src/App.test.js:32:27)
+    at Object.&lt;anonymous&gt; (/Users/mandac/Source/HackerMaps/src/App.test.js:35:15)
+    at Object.asyncJestLifecycle (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+      <failure>TypeError: getByTestId is not a function
+    at Object.&lt;anonymous&gt; (/Users/mandac/Source/HackerMaps/src/App.test.js:55:31)
+    at Object.asyncJestTest (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname="Hackermaps Should have correct buttons for each location" name="Hackermaps Should have correct buttons for each location" time="0.008">
+      <failure>ReferenceError: index is not defined
+    at map (/Users/mandac/Source/HackerMaps/src/components/Navigation.js:36:51)
+    at Array.map (&lt;anonymous&gt;)
+    at Navigation.render (/Users/mandac/Source/HackerMaps/src/components/Navigation.js:34:51)
+    at finishClassComponent (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/mandac/Source/HackerMaps/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/mandac/Source/HackerMaps/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/Users/mandac/Source/HackerMaps/src/App.test.js:32:27)
+    at Object.&lt;anonymous&gt; (/Users/mandac/Source/HackerMaps/src/App.test.js:35:15)
+    at Object.asyncJestLifecycle (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+      <failure>TypeError: getByTestId is not a function
+    at queryWithin (/Users/mandac/Source/HackerMaps/src/App.test.js:50:24)
+    at Object.&lt;anonymous&gt; (/Users/mandac/Source/HackerMaps/src/App.test.js:66:16)
+    at Object.asyncJestTest (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Hackermaps Should move the location down on clicking the down button" name="Hackermaps Should move the location down on clicking the down button" time="0.004">
+      <failure>ReferenceError: index is not defined
+    at map (/Users/mandac/Source/HackerMaps/src/components/Navigation.js:36:51)
+    at Array.map (&lt;anonymous&gt;)
+    at Navigation.render (/Users/mandac/Source/HackerMaps/src/components/Navigation.js:34:51)
+    at finishClassComponent (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/mandac/Source/HackerMaps/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/mandac/Source/HackerMaps/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/Users/mandac/Source/HackerMaps/src/App.test.js:32:27)
+    at Object.&lt;anonymous&gt; (/Users/mandac/Source/HackerMaps/src/App.test.js:35:15)
+    at Object.asyncJestLifecycle (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+      <failure>TypeError: getByTestId is not a function
+    at getWithin (/Users/mandac/Source/HackerMaps/src/App.test.js:45:24)
+    at Object.&lt;anonymous&gt; (/Users/mandac/Source/HackerMaps/src/App.test.js:83:25)
+    at Object.asyncJestTest (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Hackermaps Should move the location up on clicking the up button" name="Hackermaps Should move the location up on clicking the up button" time="0.005">
+      <failure>ReferenceError: index is not defined
+    at map (/Users/mandac/Source/HackerMaps/src/components/Navigation.js:36:51)
+    at Array.map (&lt;anonymous&gt;)
+    at Navigation.render (/Users/mandac/Source/HackerMaps/src/components/Navigation.js:34:51)
+    at finishClassComponent (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/mandac/Source/HackerMaps/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/mandac/Source/HackerMaps/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/Users/mandac/Source/HackerMaps/src/App.test.js:32:27)
+    at Object.&lt;anonymous&gt; (/Users/mandac/Source/HackerMaps/src/App.test.js:35:15)
+    at Object.asyncJestLifecycle (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+      <failure>TypeError: getByTestId is not a function
+    at getWithin (/Users/mandac/Source/HackerMaps/src/App.test.js:45:24)
+    at Object.&lt;anonymous&gt; (/Users/mandac/Source/HackerMaps/src/App.test.js:97:16)
+    at Object.asyncJestTest (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Hackermaps Should be in correct state after a series of actions" name="Hackermaps Should be in correct state after a series of actions" time="0.004">
+      <failure>ReferenceError: index is not defined
+    at map (/Users/mandac/Source/HackerMaps/src/components/Navigation.js:36:51)
+    at Array.map (&lt;anonymous&gt;)
+    at Navigation.render (/Users/mandac/Source/HackerMaps/src/components/Navigation.js:34:51)
+    at finishClassComponent (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/mandac/Source/HackerMaps/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/mandac/Source/HackerMaps/node_modules/@testing-library/react/dist/pure.js:100:25
+    at batchedUpdates$1 (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/mandac/Source/HackerMaps/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/mandac/Source/HackerMaps/node_modules/@testing-library/react/dist/pure.js:96:26)
+    at renderApp (/Users/mandac/Source/HackerMaps/src/App.test.js:32:27)
+    at Object.&lt;anonymous&gt; (/Users/mandac/Source/HackerMaps/src/App.test.js:35:15)
+    at Object.asyncJestLifecycle (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:53:37)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+      <failure>TypeError: getByTestId is not a function
+    at getWithin (/Users/mandac/Source/HackerMaps/src/App.test.js:45:24)
+    at Object.&lt;anonymous&gt; (/Users/mandac/Source/HackerMaps/src/App.test.js:117:25)
+    at Object.asyncJestTest (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/mandac/Source/HackerMaps/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
